@@ -11,8 +11,8 @@ namespace RecordsDemo1
         public static void Test()
         {
             // Som i gamle dage
-            Person p1 = new("Mathias", 14);
-            Person p2 = new("Mathias", 14);
+            Person p1 = new Person("Mathias", 14);
+            Person p2 = new Person("Mathias", 14);
             Console.WriteLine(p1 == p2);  // true
             Console.WriteLine(ReferenceEquals(p1, p2)); // false
             Console.WriteLine(p1);      // Person { Navn = Mathias, Alder = 14 }
